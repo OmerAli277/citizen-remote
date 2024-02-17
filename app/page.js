@@ -132,7 +132,7 @@ export default function Home() {
         <div className={styles.card_container}>
           <div
             className={styles.travel_card}
-            style={{ backgroundImage: "url(bg.png)" }}
+            style={{ backgroundImage: "url(bg.webp)" }}
           >
             <div className={styles.travel_card_items}>
               <div className={styles.travel_users}>

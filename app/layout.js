@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
       <link
           rel="preload"
           fetchPriority="high"
-          href="bg.png"
+          href="bg.webp"
           as="image"
           type="image/png"
         />
