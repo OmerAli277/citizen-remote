@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className={styles.outter}>
       <header className={styles.header}>
-        <Image src={"/logo.svg"} width={157} height={28} alt="citizen remote" fetchPriority={true} />
+        <Image src={"/logo.svg"} width={157} height={28} alt="citizen remote" priority={true} loading="eager" />
         <div className={styles.steps_container}>
           <span className={styles.step}></span>
           <span className={styles.step}></span>
